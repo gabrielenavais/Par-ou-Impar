@@ -1,0 +1,8 @@
+plus = 0
+
+for count in range(0, 7):
+    num = int(input("Digite um numero: "))
+    if num % 2 == 0:
+        plus = plus + num
+
+print(plus)
